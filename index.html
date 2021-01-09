@@ -1,0 +1,389 @@
+<title>welcome to the ethereal plane</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Alex+Brush&effect=neon">
+<style>
+table {
+	display: none;
+}
+#THIS_ONE table {
+	display: table;
+}
+.body {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+cursor: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/a51accb1-8b89-4b56-be08-60a1a6f16ea3/dc1dkid-74f316ab-94fb-48e6-a0b0-a8c02b1eba9c.gif"), auto;
+}
+body, td, p {
+	font: 8pt Tahoma;
+	color: #666;
+	overflow: hidden;
+	margin: 0px;
+}
+a, a:visited {
+	text-decoration: none;
+	color: #FF6DC2;
+	font-weight: bold;
+}
+a:hover {
+	color: #FF6D46;
+cursor: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/a51accb1-8b89-4b56-be08-60a1a6f16ea3/dc1dkid-74f316ab-94fb-48e6-a0b0-a8c02b1eba9c.gif"), auto;
+}
+b {
+	color: #333;
+}
+strong {
+	font: italic bold 7pt georgia;
+}
+.header, .subheader {
+	display: block;
+}
+.header {
+	font: italic bold 13pt georgia;
+	color: #fff;
+	margin-right: 30px;
+  text-shadow: 0 0 10px #B485FF, 0 0 10px #B485FF, 0 0 10px #B485FF;
+}
+.subheader {
+	font: 6pt courier;
+	text-transform: uppercase;
+	margin-left: 0px;
+}
+#bg {
+	top: 0px;
+	right: 0px;
+	height: 100%;
+}
+#bg img {
+	width: 100%;
+	height: 100%;
+}
+.main {
+	bottom: 30px;
+	left: 50px;
+	width: 550px;
+	height: 560px;
+	background: #FFF;
+	overflow: hidden;
+}
+#titlepage {
+	width: 510px;
+	height: 520px;
+	padding: 20px;
+	overflow: auto;
+}
+.title {
+	font: 32pt "Tangerine";
+	letter-spacing: 1px;
+	display: block;
+	color: #D7BB98;
+	margin-top: 60px;
+  text-shadow: 3px 2px 10px #C6A1FF;
+}
+.descr {
+	color: #AAA;
+	width: 310px;
+	margin-top: 20px;
+}
+#titleimg {
+	width: auto
+	height: auto;
+	margin: 20px 0px 20px 0px;
+}
+.container {
+	bottom: 0px;
+	width: 550px;
+	height: 520px;
+	padding: 0px;
+	overflow: hidden;
+}
+.section {
+	width: 510px;
+	height: 480px;
+	padding: 20px;
+	overflow: auto;
+}
+a.nav, a.nav:visited {
+	font: 8pt courier new;
+	text-transform: uppercase;
+	color: #888;
+}
+a.nav:hover {
+	font-style: oblique;
+}
+#navlist {
+	bottom: 550px;
+	left: 50px;
+	z-index: 1;
+	background: #D6B8FF;
+	width: 550px;
+	height: 40px;
+	text-align: center;
+}
+#navlist a, #navlist a:visited {
+	font: 10pt courier new;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #AAA;
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+	line-height: 40px;
+}
+#nav {
+	top: 10px;
+	right: 10px;
+	z-index: 100;
+}
+#navlist a:hover {
+	color: #333;
+-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/263070c8-5dcc-4291-ad6d-cc24d4cdc02f/d8qd8me-828b3606-453a-4c46-b8b6-f9135b88a36b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjYzMDcwYzgtNWRjYy00MjkxLWFkNmQtY2MyNGQ0Y2RjMDJmXC9kOHFkOG1lLTgyOGIzNjA2LTQ1M2EtNGM0Ni1iOGI2LWY5MTM1Yjg4YTM2Yi5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.iLIIcjac5pJf2NpmSaKTi8If357mMcep6JMEP1ZMwFU");
+border-radius: 1000px;
+}
+#nav a, #nav a:visited {
+	font: 8pt courier new;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #FFF;
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+#nav a:hover {
+	text-decoration: line-through;
+}
+div.imglist {
+	margin: 20px 0px 20px 0px;
+}
+ul.imglist li {
+	display: table-cell;
+	vertical-align: middle;
+	color: #333;
+	font: italic 6pt georgia;
+}
+ul.imglist li.img {
+	padding-right: 6px;
+}
+ul.imglist li img {
+	width: 40px;
+	height: 40px;
+}
+ul.imglist li.descr {
+	width: 80px;
+	padding-right: 20px;
+}
+div.imagegrid {
+	width: inherit;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+table.imagegrid {
+	padding: 0px !important;
+}
+table.imagegrid td {
+	color: #333;
+	text-align: center;
+	vertical-align: top;
+	width: 65px;
+	padding: 10px;
+}
+table.imagegrid td img {
+	width: 65px;
+	height: 65px;
+	display: block;
+	margin-bottom: 3px;
+}
+div.blocks {
+	width: inherit;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+table.blocks {
+	border-spacing: 5px;
+}
+table.blocks td {
+	background: #F7F7F7;
+	padding: 10px;
+	width: 200px;
+}
+.float_t {
+	top: 0px;
+left: 0px;
+background-repeat: repeat-x;
+width: 100%;
+height: 80px;
+background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5552cb82-6fb8-4c7f-9d29-a10b2e5daf6c/dbqg1fr-b7edab6b-8043-42ff-b8ad-df64458be5c0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTU1MmNiODItNmZiOC00YzdmLTlkMjktYTEwYjJlNWRhZjZjXC9kYnFnMWZyLWI3ZWRhYjZiLTgwNDMtNDJmZi1iOGFkLWRmNjQ0NThiZTVjMC5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.hqDEEVvtulCnZgPfsQFbK0JJI9-l3c-7Z-FuonMzJaE");
+  z-index: 10;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6B8FF;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: url("https://data.whicdn.com/images/340581209/original.gif");
+}
+</style>
+<div id="THIS_ONE">
+<div id="bg" style="position: fixed;"><img src="https://lh5.googleusercontent.com/proxy/ac4lSNFHt5YPuepFMD6Ul68tLmxrI_sY1aBwDyCS-G5jRODdbrYlcR1aYcVRYiRB-KPNFO1El_SxK7cqyJE0hIvgCudCcQkHS9LZ4wAaH6dxC_ImrEEYnX4qRpPyYVtbXQenA-eSCcZfQ243cwoGQe_PWq60zWI-3gGzob-bw6IXrvCk7A=s0-d"></div>
+<div class="float_t" style="position: fixed;"></div>
+
+<div id="nav" style="position: fixed;">
+<a href="/">link</a>
+<a href="/">link</a>
+<a href="/">link</a>
+<a href="/">link</a>
+<a href="/">exit</a></div>
+
+<a name="0"></a>
+<div class="body" style="position: relative;">
+<div class="main" style="position: absolute; z-index: 5;">
+
+<div id="titlepage">
+<center><font class="title">a moment of life is found even in a transient dream</font>
+
+<div class="descr"><br><br><br><br><br><br><br><br></div>
+
+<a href="#1" class="nav">
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7d952764-39a9-46ad-b276-afeb51093289/db8d4jg-908bec8c-9128-4aac-9a1e-672c9580e881.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvN2Q5NTI3NjQtMzlhOS00NmFkLWIyNzYtYWZlYjUxMDkzMjg5XC9kYjhkNGpnLTkwOGJlYzhjLTkxMjgtNGFhYy05YTFlLTY3MmM5NTgwZTg4MS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.VblxYnBztRCZVu1pQv5RQwFww2aBEjQ72sMxzJeU4pw" id="titleimg"><br></a><br><br><br>
+
+
+</center>
+</div>
+
+</div></div>
+
+<div class="body" style="position: absolute; top: 200%;">
+<div class="main" style="position: absolute;">
+
+<div id="navlist" style="position: fixed;">
+<a href="#1">home</a>
+<a href="#2">two</a>
+<a href="#3">three</a>
+<a href="#4">four</a>
+<a href="#5">five</a>
+<a href="#6">credits</a>
+</div>
+
+<div class="container" style="position: absolute;">
+
+<a name="1"></a>
+<div class="section">
+
+<center><font class="header">home</font>
+<font class="subheader">this morning glow we’ve dreamt of</font></center><br><br><i>Opabinia regalis</i> is an extinct, stem group arthropod found in the Middle Cambrian Burgess Shale Lagerstätte of British Columbia, Canada. It flourished from 505 million years ago to 487 million years ago during the Cambrian Period of the Paleozoic Era. It measured 2-3 inches in length and is presumed to have been a carnivore. Fewer than twenty good specimens have been described; 3 specimens of <i>Opabinia</i> are known from the Greater Phyllopod bed, where they constitute less than 0.1% of the community. <i>Opabinia</i> was a soft-bodied animal, averaging about 5.7 cm in length (excluding proboscis), and its segmented body had lobes along the sides and a fan-shaped tail. The head shows unusual features: five eyes, a mouth under the head and facing backwards, and a proboscis that probably passed food to the mouth. <i>Opabinia</i> probably lived on the seafloor, using the proboscis to seek out small, soft food.
+
+<div class="imglist">
+<ul class="imglist"><li class="img"><img src="http://images.neopets.com/neoboards/avatars/valentine_chia.gif"></li>
+<li class="descr">got cute avatar</li>
+
+<li class="img"><img src="http://i.imgur.com/cVB85pG.png"></li>
+<li class="descr">got bronze trophy in hasee bounce</li>
+
+<li class="img"><img src="http://images.neopets.com/items/babypaintbrush.gif"></li>
+<li class="descr">acquired baby PB</li>
+</ul><ul class="imglist"><li class="img"><img src="http://images.neopets.com/items/can_salty_gumball.gif"></li>
+<li class="descr">salty gumball</li>
+
+<li class="img"><img src="http://images.neopets.com/items/robo_petpet2.gif"></li>
+<li class="descr">petpet</li>
+
+<li class="img"><img src="http://images.neopets.com/items/sta_altador_torakor.gif"></li>
+<li class="descr">stamp</li>
+</ul></div>
+
+When the first thorough examination of <i>Opabinia</i> in 1975 revealed its unusual features, it was thought to be unrelated to any known phylum, although possibly related to a hypothetical ancestor of arthropods and of annelid worms. However other finds, most notably <i>Anomalocaris</i>, suggested that it belonged to a group of animals that were closely related to the ancestors of arthropods and of which the living animals onychophorans and tardigrades may also be members.<br><br>
+
+In the 1970s, there was an ongoing debate about whether multi-celled animals appeared suddenly during the Early Cambrian, in an event called the Cambrian explosion, or had arisen earlier but without leaving fossils. At first <i>Opabinia</i> was regarded as strong evidence for the "explosive" hypothesis. Later the discovery of a whole series of similar lobopod animals, some with closer resemblances to arthropods, and the development of the idea of stem groups suggested that the Early Cambrian was a time of relatively fast evolution but one that could be understood without assuming any unique evolutionary processes.<br><br>
+
+When the first thorough examination of <i>Opabinia</i> in 1975 revealed its unusual features, it was thought to be unrelated to any known phylum, although possibly related to a hypothetical ancestor of arthropods and of annelid worms. However other finds, most notably <i>Anomalocaris</i>, suggested that it belonged to a group of animals that were closely related to the ancestors of arthropods and of which the living animals onychophorans and tardigrades may also be members.<br><br>
+
+In the 1970s, there was an ongoing debate about whether multi-celled animals appeared suddenly during the Early Cambrian, in an event called the Cambrian explosion, or had arisen earlier but without leaving fossils. At first <i>Opabinia</i> was regarded as strong evidence for the "explosive" hypothesis. Later the discovery of a whole series of similar lobopod animals, some with closer resemblances to arthropods, and the development of the idea of stem groups suggested that the Early Cambrian was a time of relatively fast evolution but one that could be understood without assuming any unique evolutionary processes.
+
+</div>
+
+<a name="2"></a>
+<div class="section">
+
+<center><font class="header">page two</font>
+<font class="subheader">subtitle</font></center><br><br><i>Opabinia</i> looked so strange that the audience at the first presentation of Whittington's evaluation laughed. The length of <i>Opabinia</i> regalis from head to tail ranged between 4 centimetres (1.6 in) and 7 centimetres (2.8 in). The animal also had a hollow proboscis, whose total length was about one-third of the body's and projected down from under the head and then curved forwards and upwards. The proboscis was striated like a vacuum cleaner's hose and probably flexible, and it ended with a claw-like structure whose inner edges bore spines that projected inwards and forwards. The head bore five eyes: two on stalks near the front and fairly close to the middle of the head, pointing upwards and forwards; two larger eyes, also stalked, near the rear and outer edges of the head, pointing upwards and sideways; and a single eye with a shorter stalk between the larger pair of stalked eyes, pointing upwards. It has been assumed that the eyes were all compound, like arthropods' lateral eyes, but this reconstruction, which is not backed up by any evidence, is "somewhat fanciful". The mouth was under the head, behind the proboscis, and pointed backwards, so that the digestive tract formed a U-bend on its way towards the rear of the animal. The proboscis appeared sufficiently long and flexible to reach the mouth.
+
+<div class="imagegrid"><center>
+<table class="imagegrid"><tr><td><img src="http://images.neopets.com/items/tiki_rock.gif">Volcanic Rock</td>
+<td><img src="http://images.neopets.com/items/isl_petpet1.gif">Pfish</td>
+<td><img src="http://images.neopets.com/items/d_food14.gif">Nautilus</td>
+<td><img src="http://images.neopets.com/items/d_food11.gif">Trilo Bite</td>
+<td><img src="http://images.neopets.com/items/isl_petpet5.gif">Cubett</td>
+</tr></table></center>
+</div>
+
+The main part of the body was typically about 5 millimetres (0.20 in) wide and had 15 segments, on each of which there were pairs of lobes (flaps) pointing downwards and outwards. The lobes overlapped so that the front of each was covered by the rear edge of the one ahead of it. The body ended with what looked like a single conical segment bearing three pairs of overlapping lobes that pointed up and out, forming a tail like a V-shaped double fan.<br><br>
+
+Interpretations of other features of <i>Opabinia</i> fossils differ. Since the animals did not have mineralized armor nor even tough organic exoskeletons like those of insects, their bodies were flattened as they were buried and fossilized, and smaller or internal features appear as markings within the outlines of the fossils.
+
+</div>
+
+<a name="3"></a>
+<div class="section">
+
+<center><font class="header">page three</font>
+<font class="subheader">subtitle</font></center><br><br>
+
+Whittington interpreted as gills some markings on the upper surfaces of all lobes except the first on each side, and thought that these gills were flat underneath, had overlapping layers on top, and attached to the bases of the lobes. Budd (1996, 2011) thought they consisted of separate "blades" attached along the front edges on the undersides of the lobes. He also found marks inside the lobes' front edges that he interpreted as internal channels connecting the gills to the interior of the body, much as Whittington interpreted the mark along the proboscis as an internal channel. On the other hand, Bergström (1986) interpreted both the "gills" and the lobes as part of a covering over the upper surface of the body.<br><br>
+
+Whittington found evidence of near-triangular features along the body, and concluded that they were internal structures, most likely sideways extensions of the gut. Chen et al. (1994) interpreted them as contained within the lobes along the sides. Budd thought the "triangles" were too wide to fit within <i>Opabinia</i>s slender body, and that cross-section views showed they were attached separately from and lower than the lobes, and extended below the body. He later found specimens that appeared to preserve the legs' exterior cuticle. He therefore interpreted the "triangles" as short, fleshy, conical legs. He also found small mineralized patches at the tips of some, and interpreted these as claws. Zhang and Briggs (2007) evaluated the chemical composition of the "triangles", and concluded that they had the same composition as the gut, and therefore agreed with Whittington that they were part of the digestive system. Instead they regarded <i>Opabinia</i>s lobe+gill arrangement as an early form of the biramous limbs seen in trilobites and crustaceans and which may be the original form in all arthropods. However, this similar chemical composition is not only associated with the digestive tract; Budd and Daley suggest that it represents mineralization forming within fluid-filled cavities within the body (consistent with hollow lobopod legs).<br><br>
+
+The way in which the Burgess Shale animals were buried, by a mudslide or a sediment-laden current that acted as a sandstorm, suggests they lived on the surface of the seafloor. <i>Opabinia</i> probably used its proboscis to search the sediment for food particles and pass them to its mouth. Since there is no sign of anything that might function as jaws, its food was presumably small and soft. Whittington, believing that <i>Opabinia</i> had no legs, thought that it crawled on its lobes and that it could also have swum slowly by flapping the lobes, especially if it timed the movements to create "waves". On the other hand, he thought the body was not flexible enough to allow fish-like undulations of the whole body.
+
+<div class="blocks"><center><table class="blocks"><tr><td><strong>title</strong><br>not sure what you'd use this for but here it is</td>
+<td><strong>another one</strong><br>etc etc etc</td>
+</tr><tr><td><strong>hello</strong><br>here's another row i guess</td>
+<td>bloop</td>
+</tr></table></center></div>
+
+</div>
+
+<a name="4"></a>
+<div class="section">
+
+<center><font class="header">page four</font>
+<font class="subheader">subtitle</font></center><br><br><i>Opabinia</i> made it clear how little was known about soft-bodied animals, which do not usually leave fossils. When Whittington described it in the mid-1970s, there was already a vigorous debate about the early evolution of animals. Preston Cloud argued in 1948 and 1968 that the process was "explosive", and in the early 1970s Niles Eldredge and Stephen Jay Gould developed their theory of punctuated equilibrium, which views evolution as long intervals of near-stasis "punctuated" by short periods of rapid change. On the other hand, around the same time Wyatt Durham and Martin Glaessner both argued that the animal kingdom had a long Proterozoic history that was hidden by the lack of fossils. Whittington (1975) concluded that <i>Opabinia</i>, and other taxa such as <i>Marrella</i> and <i>Yohoia</i>, cannot be accommodated in modern groups. This was one of the primary reasons why Gould in his book on the Burgess Shale, <i>Wonderful Life</i>, considered that Early Cambrian life was much more diverse and "experimental" than any later set of animals and that the Cambrian explosion was a truly dramatic event, possibly driven by unusual evolutionary mechanisms. He regarded <i>Opabinia</i> as so important to understanding this phenomenon that he wanted to call his book <i>Homage to Opabinia</i>.<br><br>
+
+However, other discoveries and evaluations soon followed, revealing similar-looking animals such as <i>Anomalocaris</i> from the Burgess Shale and <i>Kerygmachela</i> from Sirius Passet. Another Burgess Shale animal, <i>Aysheaia</i>, was considered very similar to modern <i>Onychophora</i>, which are regarded as close relatives of arthropods. Paleontologists defined a group called lobopods to include animals that are thought to be close relatives of arthropods but lack jointed limbs. There is still debate about whether lobopods are monophyletic, i.e. whether they include all and only the descendants of a single common ancestor, and about whether arthropods are a sub-group of lobopods or a sister-group.
+
+</div>
+
+<a name="5"></a>
+<div class="section">
+
+<center><font class="header">page five</font>
+<font class="subheader">subtitle</font></center><br><br></div>
+
+<a name="6"></a>
+<div class="section">
+
+<center><font class="header">credits</font>
+<font class="subheader">we can’t control the time or the clouds</font></center><br><br>
+
+<ul>
+<li>Code by <a href="http://www.neopets.com/~Fiziwhig">Jinx</a> edit by me;</li>
+<li>Entry image by <a href="https://www.deviantart.com/chixerii">Chixerii</a>;</li>
+<li>Side and top float by <a href="https://www.deviantart.com/kicked-in-teeth">kicked-in-teeth</a>;</li>
+<li>Background by <a href="https://3dandroidwall.blogspot.com/">3d Android Wallpaper</a>;</li>
+<li>Scrollbar background by <a href="http://geyashvecova.tumblr.com">Geya Shvecova</a>;</li>
+<li>Nav hover background by <a href="https://www.deviantart.com/piirmy">piirmy</a>;</li>
+<li>Cursor by <a href="https://www.deviantart.com/toonstones">toonstones</a>;</li>
+</ul>
+</div>
+
+</div>
+
+</div></div>
+</div>
+
+<a href="#0"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5552cb82-6fb8-4c7f-9d29-a10b2e5daf6c/daw3g87-03cc43f7-7d8f-491a-8c94-7c9241745ec3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTU1MmNiODItNmZiOC00YzdmLTlkMjktYTEwYjJlNWRhZjZjXC9kYXczZzg3LTAzY2M0M2Y3LTdkOGYtNDkxYS04Yzk0LTdjOTI0MTc0NWVjMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.GhdefRoUV_WlcvhM6CUxha65RaZRtwGnknlyQmFDGPE" style="position: fixed; right: 10px; bottom: 10px; height: auto; width: auto; z-index: 1;"></a>
